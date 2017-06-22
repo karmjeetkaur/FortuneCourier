@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.base.fortunecourier.activites.SignUpActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/main_color"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_back_btn"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:text="Sign Up"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="80dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profilr_pic"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/user_profile" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/prof_edit"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic Info."
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="left"/>
+
+
+        <EditText
+            android:id="@+id/ed_emailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_background"
+            android:hint="Email Address*"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hint_color"
+            android:textSize="15sp"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/ed_phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_background"
+            android:hint="Phone Number*"
+            android:inputType="phone"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/hint_color"
+            android:textSize="15sp"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/ed_zipCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_background"
+            android:hint="Zip Code (Optional)*"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/hint_color"
+            android:textSize="15sp"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/ed_passCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_background"
+            android:hint="Passcode*"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/hint_color"
+            android:textSize="15sp"
+            android:padding="15dp" />
+
+        <Button
+            android:id="@+id/btn_signUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Sign Up"
+            android:inputType="text"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_backgroud"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

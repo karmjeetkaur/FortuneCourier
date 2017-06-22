@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.base.fortunecourier.activites.SignUpActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_color"
+        android:text="Help Center"
+        android:drawableRight="@drawable/ic_right_arrow"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:padding="15dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_color"
+        android:text="Terms of Use"
+        android:drawableRight="@drawable/ic_right_arrow"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:padding="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_color"
+        android:text="Privacy Policy"
+        android:drawableRight="@drawable/ic_right_arrow"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="15dp" />
+
+</LinearLayout>
